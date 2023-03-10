@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    background-color: #080808;   
+}
+
+.container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(255, 253, 253);
+    padding: 30px;
+    background-color: #fafafa;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+
+.input-field{
+    text-align: center;
+}
+
+input[type="text"]{
+    color: #ff0505;
+    border: 5px;
+    background-color: #1b1a1a;
+    max-width: 400px;
+}
+
+.todos li{
+    background-color: #faf7f7;
+    color: rgb(0, 197, 0);
+    font-weight: bold;
+}
+
+.delete{
+    cursor: pointer;
+    color: red;
+}
+
+.text{
+    color:rgb(30, 5, 171)
+}
+
+.style{
+    text-align : center;
+    color: rgb(172, 3, 136);
+}
